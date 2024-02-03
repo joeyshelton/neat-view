@@ -1,0 +1,61 @@
+# Android Studio Files
+.idea/
+*.iml
+
+# Gradle files
+.gradle/
+/build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+
+# Android build artifacts and temporary files
+/*/build/
+/*/out/
+/gradlew
+/gradlew.bat
+/gradle/wrapper/
+*.apk
+*.ap_
+*.aab
+
+# Generated files
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Ignore navigation editor temp files
+.navigation/
+
+# Mac OS specific
+.DS_Store
+
+# Ignore certain XML files that may contain sensitive information like API keys
+**/res/values/secret.xml
+
+# Thumbnails created by Windows
+Thumbs.db
+
+# Ignore files created by JetBrains IDEs
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/gradle.xml
+**/.idea/assetWizardSettings.xml
+**/.idea/dictionaries
+**/.idea/libraries
+**/.idea/caches
+
+# Ignore Eclipse files
+.classpath
+.project
+.settings/
+
+# Ignore VS Code files
+.vscode/
